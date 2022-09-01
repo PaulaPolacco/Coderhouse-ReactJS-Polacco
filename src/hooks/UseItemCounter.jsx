@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-const UseItemCounter = (stock) => {
-    const [count, setCount] = useState(0);
+const UseItemCounter = (stock, initial) => {
+    const [count, setCount] = useState(initial);
     const [cant, setStock] = useState(stock);
     const add = () =>{
         if(count<stock) {
@@ -10,13 +10,13 @@ const UseItemCounter = (stock) => {
         }
     };
     const less = () => {
-        if(count>0) {
+        if(count>initial) {
             setCount(count -1);
             setStock(cant +1)
         }
     };
     const reset = () => {
-        setCount(0);
+        setCount(initial);
         setStock(stock);
     };
     return (

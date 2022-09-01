@@ -3,8 +3,8 @@ import React from 'react';
 import UseItemCounter from '../hooks/UseItemCounter';
 
 
-const ItemCounter = ({stock, onAdd}) => {
-    const {add, less, reset, count, cant}= UseItemCounter(stock);
+const ItemCounter = ({initial, stock, onAdd}) => {
+    const {add, less, reset, count, cant}= UseItemCounter(initial, stock);
     return (
         <div>
             <div className="counter-box">

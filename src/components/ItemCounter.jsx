@@ -4,11 +4,13 @@ import UseItemCounter from '../hooks/UseItemCounter';
 
 
 const ItemCounter = ({initial, stock, onAdd}) => {
-    const {add, less, reset, count, cant}= UseItemCounter(initial, stock);
+    console.log(parseInt(stock))
+    const {add, less, reset, count, cant}= UseItemCounter(initial, parseInt(stock));
+    
     return (
         <div>
             <div className="counter-box">
-                <h1>Contador</h1>
+                <h1>Comprar</h1>
                 <p>Stock: {cant}</p>
                 <p>Cantidad: {count}</p>
                 <div>

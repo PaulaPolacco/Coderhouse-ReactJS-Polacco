@@ -1,0 +1,91 @@
+/* -------------------------------*/
+/*   estilos de tabla en galería  */
+/* -------------------------------*/
+.carrito {
+    display: flex;
+    justify-content: end; }
+.contenedorDetalleProd {
+  display: flex;
+  justify-content:center;
+}
+  
+  .galeriaDestacadosSection {
+    padding: 2%;
+    border-bottom: 2px solid black;
+    width: -moz-available; }
+  
+  .galeria_destacados {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0%;
+    align-items: center;
+    justify-content: none; }
+  
+  .imagenesDestacados {
+    width: 400px;
+    height: 350px; }
+  
+  .imagenesGaleria {
+    width: 280px;
+    height: 280px; }
+  
+  .listaproductos {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    padding: 0%;
+    align-items: center;
+    justify-content: space-around; }
+  
+  .more {
+    display: none; }
+  
+  #listaproductos_colores li {
+    display: inline-block; }
+  
+  .listaproductos_cuadrado {
+    width: 20px;
+    height: 20px;
+    border: 1px solid; }
+  
+  .green {
+    background-color: green; }
+  
+  .fuchsia {
+    background-color: fuchsia; }
+  
+  .black {
+    background-color: black; }
+  
+  @media screen and (max-width: 768px) and (min-width: 469px) {
+    /*estilos para tablet en galería */
+    .imagenesGaleria {
+      width: 180px;
+      height: 180px; }
+    .listaproductos {
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      padding-left: 2%;
+      padding-right: 2%;
+      padding-inline: 10%;
+      display: flex;
+      flex-flow: row wrap-reverse;
+      padding: 0%;
+      align-items: center;
+      justify-content: space-around; } }
+  
+  @media screen and (max-width: 468px) and (min-width: 1px) {
+    /*estilos para movil en galería */
+    .imagenesGaleria {
+      width: 120px;
+      height: 120px; }
+    .listaproductos {
+      display: flex;
+      flex-flow: row wrap-reverse;
+      padding: 2%;
+      align-items: center;
+      justify-content: space-around;
+      padding-inline: 10%; } }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Item = (prod) => {
+const Item = ({prod}) => {
     return (
         <li  key={prod.id}>{prod.nombre}</li>
     );

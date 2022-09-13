@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Cr3aDly es un emprendimiento de impresiones 3D. Para poder tener más llegada a más compradores se realizó el desarrollo 
+de este sitio web.
+
+El sitio cuenta con 3 páginas:
+ - Galería es el index donde se listan todos los productos a vender. Estos productos son impresiones que ralizado a partir
+   de modelos descargados en internet (no propios).
+ - Promos y Combos está destinado a la publicación de productos en promo o bien combos con temática relacionada 
+   (por ejemplo combo de 3 macetas, especial de halloween, especial de navidad, etc).
+ - Personalizados está destinado a mostrar los productos que hemos realizado a pedido, o bien productos de la galería que 
+   fueron customizados en tamaño preferencial, etc.

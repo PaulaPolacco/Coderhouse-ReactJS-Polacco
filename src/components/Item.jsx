@@ -3,7 +3,6 @@ import './ItemDetail.css';
 import { Link } from 'react-router-dom';
 
 const Item = ({ prod }) => {
-    const {nombre, precio, img, stock, id} = prod;
     return (
         <li key={prod.id}>
             <div className="card" style={{ width: "18rem" }}>

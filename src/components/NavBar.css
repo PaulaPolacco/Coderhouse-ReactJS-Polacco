@@ -32,4 +32,17 @@
   a {
     color: #05285e;
     text-decoration: underline; }
+
+    @media screen and (max-width: 768px) and (min-width: 469px) {
+      /*estilos para tablet en menu */
+      #menu_li_inline {
+        flex-flow: column wrap; } }
+    
+    @media screen and (max-width: 468px) and (min-width: 1px) {
+      /*estilos para movil en menu */
+      #menu_li_inline {
+        flex-flow: column wrap; }
+      .menu_logo {
+        width: 40px;
+        height: 40px; } }
   

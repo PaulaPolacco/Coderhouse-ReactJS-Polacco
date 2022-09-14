@@ -3,7 +3,7 @@ import { useState } from 'react';
 const UseItemCounter = (initial, stock) => {
     
     const [count, setCount] = useState(initial);
-    const [cant, setStock] = useState(stock);
+    const [cant, setStock] = useState(stock-initial);
     const add = () =>{
         if(count<stock) {
             setCount(count +1);

@@ -1,9 +1,17 @@
 import React from 'react';
 import './ItemDetail.css';
 import ItemCounter from './ItemCounter';
+import { useNavigate } from 'react-router-dom';
 
 const ItemDetail = ({ producto }) => {
-    const onAdd = (count) => { console.log(`Se han seleccionado ${count} productos`) }
+    const navigate = useNavigate();
+
+    const onAdd = (count) => 
+    { 
+        const productoAcomprar = {id: producto.id, nombre:producto.nombre, cantidad: count}
+        navigate('/cart')
+        console.log(`Se han seleccionado ${count} productos`) 
+    }
     let stock = parseInt(producto.stock);
     return (
         <div className="contenedorDetalleProd">

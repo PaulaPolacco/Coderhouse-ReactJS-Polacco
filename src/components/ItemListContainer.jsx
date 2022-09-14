@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react';
 
 
 const ItemListContainer = () => {
-    const onAdd = (count) => {console.log(`Se han seleccionado ${count} productos`)}
     const [productos, setProductos] = useState([]);
 
    useEffect(()=>{

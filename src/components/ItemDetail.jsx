@@ -2,15 +2,21 @@ import React from 'react';
 import './ItemDetail.css';
 import ItemCounter from './ItemCounter';
 import { useNavigate } from 'react-router-dom';
+import { UseCartContext } from './context/CartContext';
 
 const ItemDetail = ({ producto }) => {
     const navigate = useNavigate();
+    const {addElementCart, shopCart} = UseCartContext()
+    
 
     const onAdd = (count) => 
     { 
         const productoAcomprar = {id: producto.id, nombre:producto.nombre, cantidad: count}
+        addElementCart(productoAcomprar);
+        console.log(shopCart)
         navigate('/cart')
         console.log(`Se han seleccionado ${count} productos`) 
+
     }
     let stock = parseInt(producto.stock);
     return (

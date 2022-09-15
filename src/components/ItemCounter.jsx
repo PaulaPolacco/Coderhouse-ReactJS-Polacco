@@ -4,7 +4,6 @@ import UseItemCounter from '../hooks/UseItemCounter';
 
 
 const ItemCounter = ({initial, stock, onAdd}) => {
-    console.log(parseInt(stock))
     const {add, less, reset, count, cant}= UseItemCounter(initial, parseInt(stock));
     
     return (

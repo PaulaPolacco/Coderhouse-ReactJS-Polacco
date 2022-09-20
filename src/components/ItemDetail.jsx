@@ -11,12 +11,10 @@ const ItemDetail = ({ producto }) => {
 
     const onAdd = (count) => 
     { 
-        const productoAcomprar = {id: producto.id, nombre:producto.nombre, cantidad: count}
+        const productoAcomprar = {id: producto.id, nombre:producto.nombre, cantidad: count, precio:producto.precio, img:producto.img}
         addElementCart(productoAcomprar);
         console.log(shopCart)
-        navigate('/cart')
-        console.log(`Se han seleccionado ${count} productos`) 
-
+       // navigate('/cart')
     }
     let stock = parseInt(producto.stock);
     return (
@@ -41,8 +39,7 @@ const ItemDetail = ({ producto }) => {
                 </ul>
             </div>
             <div>
-                {producto && <ItemCounter initial={1} stock={stock} onAdd={onAdd} />}
-
+                {(producto && stock) ? <ItemCounter initial={1} stock={stock} onAdd={onAdd} />: <h3>(Sin stock)</h3>}
             </div>
         </div>
 

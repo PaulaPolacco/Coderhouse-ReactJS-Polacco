@@ -1,4 +1,4 @@
-[{"id":1,"nombre":"Llavero porta celu", "precio":250, "tipo":"general", "stock":20, "obs":0, "img":"/../images/galeria/llaveros.png","categoria":"hogar" },
+[{"id":1,"nombre":"Llavero porta celu", "precio":250, "tipo":"general", "stock":0, "obs":0, "img":"/../images/galeria/llaveros.png","categoria":"hogar" },
 {"id":2,"nombre":"Maceta","precio":600, "tipo":"general","stock":5,"obs":0,"img":"/../images/galeria/macetas.jpg","categoria":"jardin"},
 {"id":3,"nombre":"Soporte para Celular","precio":500, "tipo":"general","stock":15,"obs":0,"img":"/../images/galeria/porta_celus.png","categoria":"oficina"},
 {"id":4,"nombre":"Soporte para Notebook","precio":1000, "tipo":"general","stock":3,"obs":0,"img":"/../images/galeria/soporte_notebook.jpg","categoria":"oficina"},

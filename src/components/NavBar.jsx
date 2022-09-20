@@ -26,7 +26,7 @@ const NavBar = () => {
                                 </li>
                                 <li className="nav-item"><FormBuscar contBuscar="Buscar productos" />
                                 </li> 
-                                <li className="nav-item"><CartWidget cant="0" /></li>
+                                <li className="nav-item"><CartWidget /></li>
                             </ul>
                         </div>
                     </div>

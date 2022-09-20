@@ -5,7 +5,7 @@ import ItemListContainer from './ItemListContainer';
 import ItemDetailContainer from './ItemDetailContainer';
 import PromosCombos from './PromosCombos';
 import Personalizados from './Personalizados';
-import CartWidget from './CartWidget';
+import CartListContainer from './CartListContainer';
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <Route path="/categoria/:id" element={ <ItemDetailContainer />}></Route>
           <Route path="/promosycombos" element={<PromosCombos/>}></Route>
           <Route path="/personalizados" element={<Personalizados/>}></Route>
-          <Route path="/cart" element={<CartWidget/>}></Route>
+          <Route path="/cart" element={<CartListContainer/>}></Route>
           <Route path="*" element={<h1>Error 404</h1>}></Route>
         </Routes>
       </BrowserRouter>

@@ -7,7 +7,7 @@ const CartContextProvider = (props) => {
     const [shopCart, setCart]= useState([]); //{id: producto.id, nombre:producto.nombre, cantidad: count, img:producto.imagen}
     
     const addElementCart = (producto) => {
-        const auxCarrito = shopCart
+        const auxCarrito = [...shopCart]
         let cantidad = producto.cantidad
         let prod = auxCarrito.find(prod => prod.id === producto.id)
         let index = auxCarrito.findIndex(prod => prod.id === producto.id)
@@ -21,18 +21,13 @@ const CartContextProvider = (props) => {
 
     }
     const removeElementCart = (producto) => {
-        console.log(producto)
-        const auxCarrito = shopCart
-        let index = auxCarrito.findIndex(prod => prod.id === producto.id)
-        auxCarrito.splice(index,1)
-        setCart(auxCarrito)
+        setCart(shopCart.filter(prod => prod.id !== producto.id))
     }
     const clearCart = () => {
         setCart([]);
     }
     const isInCart = (producto) => {
-        let index = shopCart.findIndex(prod => prod.id === producto.id)
-        return index?true:false
+        return shopCart.some(prod => prod.id === producto.id)
     }
     const cantTotalCart = ()=> {
         let cnt = 0 

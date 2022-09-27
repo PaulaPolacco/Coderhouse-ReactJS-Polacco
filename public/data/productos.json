@@ -6,6 +6,10 @@
 {"id":6,"nombre":"Juego de Ajedrez","precio":2500, "tipo":"general","stock":1,"obs":0,"img":"/../images/galeria/ajedrez.png","categoria":"juegos"},
 {"id":7,"nombre":"Porta Joystick x 2","precio":800, "tipo":"general","stock":10,"obs":0,"img":"/../images/galeria/porta_joystick.png","categoria":"juegos"},
 {"id":8,"nombre":"Soporte para Auriculares","precio":700, "tipo":"general","stock":6,"obs":0,"img":"/../images/galeria/soporte_auriculares.jpg","categoria":"oficina"},
-{"id":9,"nombre":"Florero","precio":700, "tipo":"general","stock":8,"obs":0,"img":"/../images/galeria/florero.jpg","categoria":"jardin"}]
+{"id":9,"nombre":"Florero","precio":700, "tipo":"general","stock":8,"obs":0,"img":"/../images/galeria/florero.jpg","categoria":"jardin"},
+{"id":10,"nombre":"Combo 1","precio":1000, "tipo":"general","stock":1,"obs":0,"img":"/../images/promos_combos/combo1.jpg","categoria":"promos_combos"},
+{"id":11,"nombre":"Combo 2","precio":1000, "tipo":"general","stock":1,"obs":0,"img":"/../images/promos_combos/combo2.jpg","categoria":"promos_combos"},
+{"id":12,"nombre":"Haloween 1","precio":1500, "tipo":"general","stock":1,"obs":0,"img":"/../images/promos_combos/haloween1.jpg","categoria":"promos_combos"},
+{"id":13,"nombre":"Haloween 2","precio":1500, "tipo":"general","stock":1,"obs":0,"img":"/../images/promos_combos/haloween2.jpg","categoria":"promos_combos"}]
 
 

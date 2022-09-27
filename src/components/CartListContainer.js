@@ -6,15 +6,19 @@ import Cart from './Cart'
 const CartListContainer = () => {
     const { addElementCart, removeElementCart, clearCart, shopCart, precioTotalCart } = UseCartContext()
     return (
+        shopCart.length > 0 ?
         <div className="listaproductoscarrito">
             <ul >
-                {(shopCart.length > 0) && shopCart.map((producto) => (<Cart prod={producto} key={producto.id} removeElementCart={removeElementCart} />))}
+                { shopCart.map((producto) => (<Cart prod={producto} key={producto.id} removeElementCart={removeElementCart} />))}
             </ul>
             <div>
                 <h3>Precio Total productos: {precioTotalCart()}</h3>
             </div>
+            <Link to="/">
+                <button className="btn btn-secondary">Seguir comprando</button>
+            </Link>
             <div>
-                <button type="button" class="btn btn-danger" onClick={() => clearCart()}>
+                <button type="button" className="btn btn-danger" onClick={() => clearCart()}>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -27,6 +31,13 @@ const CartListContainer = () => {
                     </svg> Vaciar Carrito
                 </button>
             </div>
+        </div>
+        :
+        <div className="listaproductoscarrito">
+            <h4>No hay elementos en el carrito</h4>
+            <Link to="/">
+                <button className="btn btn-secondary">Seguir comprando</button>
+            </Link>
         </div>
     );
 }

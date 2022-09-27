@@ -6,7 +6,6 @@ import { UseCartContext } from './context/CartContext';
 const CartWidget = () => {
     const {cantTotalCart} = UseCartContext()
     let cant = cantTotalCart();
-    console.log(cant)
     return (
         <div>
             <Link to={"/cart"}>

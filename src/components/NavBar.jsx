@@ -16,7 +16,7 @@ const NavBar = () => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0" id="menu_li_inline">
                                 <li className="nav-item"> 
-                                    <Link  to="/promosycombos"><p> Promociones y Combos</p></Link>
+                                    <Link  to="/promosycombos/promos_combos"><p> Promociones y Combos</p></Link>
                                 </li>
                                 <li className="nav-item"> 
                                     <Link  to="/"><p> Galería</p></Link>

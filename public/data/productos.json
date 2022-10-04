@@ -1,15 +1,13 @@
-[{"id":1,"nombre":"Llavero porta celu", "precio":250, "tipo":"general", "stock":0, "obs":0, "img":"/../images/galeria/llaveros.png","categoria":"hogar" },
-{"id":2,"nombre":"Maceta","precio":600, "tipo":"general","stock":5,"obs":0,"img":"/../images/galeria/macetas.jpg","categoria":"jardin"},
-{"id":3,"nombre":"Soporte para Celular","precio":500, "tipo":"general","stock":15,"obs":0,"img":"/../images/galeria/porta_celus.png","categoria":"oficina"},
-{"id":4,"nombre":"Soporte para Notebook","precio":1000, "tipo":"general","stock":3,"obs":0,"img":"/../images/galeria/soporte_notebook.jpg","categoria":"oficina"},
-{"id":5,"nombre":"Aspa Ventilador","precio":300, "tipo":"personalizado","stock":4,"obs":0,"img":"/../images/galeria/aspa_ventilador.jpg","categoria":"hogar"},
-{"id":6,"nombre":"Juego de Ajedrez","precio":2500, "tipo":"general","stock":1,"obs":0,"img":"/../images/galeria/ajedrez.png","categoria":"juegos"},
-{"id":7,"nombre":"Porta Joystick x 2","precio":800, "tipo":"general","stock":10,"obs":0,"img":"/../images/galeria/porta_joystick.png","categoria":"juegos"},
-{"id":8,"nombre":"Soporte para Auriculares","precio":700, "tipo":"general","stock":6,"obs":0,"img":"/../images/galeria/soporte_auriculares.jpg","categoria":"oficina"},
-{"id":9,"nombre":"Florero","precio":700, "tipo":"general","stock":8,"obs":0,"img":"/../images/galeria/florero.jpg","categoria":"jardin"},
-{"id":10,"nombre":"Combo 1","precio":1000, "tipo":"general","stock":1,"obs":0,"img":"/../images/promos_combos/combo1.jpg","categoria":"promos_combos"},
-{"id":11,"nombre":"Combo 2","precio":1000, "tipo":"general","stock":1,"obs":0,"img":"/../images/promos_combos/combo2.jpg","categoria":"promos_combos"},
-{"id":12,"nombre":"Haloween 1","precio":1500, "tipo":"general","stock":1,"obs":0,"img":"/../images/promos_combos/haloween1.jpg","categoria":"promos_combos"},
-{"id":13,"nombre":"Haloween 2","precio":1500, "tipo":"general","stock":1,"obs":0,"img":"/../images/promos_combos/haloween2.jpg","categoria":"promos_combos"}]
-
-
+[{"id":1,"nombre":"Llavero porta celu", "precio":250, "tipo":"general", "stock":0, "obs":0, "img":"/https://firebasestorage.googleapis.com/v0/b/cr3adly2.appspot.com/o/galeria%2Fllaveros.png?alt=media&token=b19bca6c-823c-4b0d-bba9-568247cbf714","categoria":"hogar" },
+{"id":2,"nombre":"Maceta","precio":600, "tipo":"general","stock":5,"obs":0,"img":"https://firebasestorage.googleapis.com/v0/b/cr3adly2.appspot.com/o/galeria%2Fmacetas.jpg?alt=media&token=7fed5ae8-f840-4e1c-aaee-73d733e4f4a1","categoria":"jardin"},
+{"id":3,"nombre":"Soporte para Celular","precio":500, "tipo":"general","stock":15,"obs":0,"img":"https://firebasestorage.googleapis.com/v0/b/cr3adly2.appspot.com/o/galeria%2Fporta_celus.png?alt=media&token=6b614400-1db5-4c9c-ba42-70c4384ac313","categoria":"oficina"},
+{"id":4,"nombre":"Soporte para Notebook","precio":1000, "tipo":"general","stock":3,"obs":0,"img":"https://firebasestorage.googleapis.com/v0/b/cr3adly2.appspot.com/o/galeria%2Fsoporte_notebook.jpg?alt=media&token=cf6f22d9-55b4-4910-817e-6dc0a3674687","categoria":"oficina"},
+{"id":5,"nombre":"Aspa Ventilador","precio":300, "tipo":"personalizado","stock":4,"obs":0,"img":"https://firebasestorage.googleapis.com/v0/b/cr3adly2.appspot.com/o/galeria%2Faspa_ventilador.jpg?alt=media&token=eea5e197-36ae-4ff2-a708-944cb5f08dea","categoria":"hogar"},
+{"id":6,"nombre":"Juego de Ajedrez","precio":2500, "tipo":"general","stock":1,"obs":0,"img":"https://firebasestorage.googleapis.com/v0/b/cr3adly2.appspot.com/o/galeria%2Fajedrez.png?alt=media&token=f9696460-bd1d-4894-8cda-7cf5851a1ee8","categoria":"juegos"},
+{"id":7,"nombre":"Porta Joystick x 2","precio":800, "tipo":"general","stock":10,"obs":0,"img":"https://firebasestorage.googleapis.com/v0/b/cr3adly2.appspot.com/o/galeria%2Fporta_joystick.png?alt=media&token=3b8a5409-daa6-43b3-802e-eb3f7da6b447","categoria":"juegos"},
+{"id":8,"nombre":"Soporte para Auriculares","precio":700, "tipo":"general","stock":6,"obs":0,"img":"https://firebasestorage.googleapis.com/v0/b/cr3adly2.appspot.com/o/galeria%2Fsoporte_auriculares.jpg?alt=media&token=9737e9d3-ab25-42df-b65b-8fb77fa36f99","categoria":"oficina"},
+{"id":9,"nombre":"Florero","precio":700, "tipo":"general","stock":8,"obs":0,"img":"https://firebasestorage.googleapis.com/v0/b/cr3adly2.appspot.com/o/galeria%2Fflorero.jpg?alt=media&token=5fa439ff-6022-4146-b3d5-c2f159d5dc74","categoria":"jardin"},
+{"id":10,"nombre":"Combo 1","precio":1000, "tipo":"general","stock":1,"obs":0,"img":"https://firebasestorage.googleapis.com/v0/b/cr3adly2.appspot.com/o/promos_combos%2Fcombo1.jpg?alt=media&token=fb3f273e-30ba-4ff9-bb88-546e38967b48","categoria":"promos_combos"},
+{"id":11,"nombre":"Combo 2","precio":1000, "tipo":"general","stock":1,"obs":0,"img":"https://firebasestorage.googleapis.com/v0/b/cr3adly2.appspot.com/o/promos_combos%2Fcombo2.jpg?alt=media&token=6da4d187-9920-43bf-8b39-069b4b05df74","categoria":"promos_combos"},
+{"id":12,"nombre":"Haloween 1","precio":1500, "tipo":"general","stock":1,"obs":0,"img":"https://firebasestorage.googleapis.com/v0/b/cr3adly2.appspot.com/o/promos_combos%2Fhaloween1.jpg?alt=media&token=1d4f7247-a732-4de3-815f-bfedae33d458","categoria":"promos_combos"},
+{"id":13,"nombre":"Haloween 2","precio":1500, "tipo":"general","stock":1,"obs":0,"img":"https://firebasestorage.googleapis.com/v0/b/cr3adly2.appspot.com/o/promos_combos%2Fhaloween2.jpg?alt=media&token=3ed00213-9c0e-42c5-9cf0-ae1966ce3e66","categoria":"promos_combos"}]

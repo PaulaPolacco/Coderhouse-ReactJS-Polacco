@@ -5,7 +5,6 @@ export  const UseCartContext = () => useContext(CartContext);
 
 const CartContextProvider = (props) => {
     const [shopCart, setCart]= useState([]); //{id: producto.id, nombre:producto.nombre, cantidad: count, img:producto.imagen}
-    
     const addElementCart = (producto) => {
         const auxCarrito = [...shopCart]
         let cantidad = producto.cantidad

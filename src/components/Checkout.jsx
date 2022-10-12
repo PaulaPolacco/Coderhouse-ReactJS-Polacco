@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { UseCartContext } from './context/CartContext';
-import { addOrder } from './firebase/firebase';
+import { addOrder, actualizarStock } from './firebase/firebase';
 
 const Checkout = () => {
     const { shopCart, precioTotalCart, clearCart } = UseCartContext();
@@ -14,7 +14,7 @@ const Checkout = () => {
         try {
             const order = await addOrder(data);
             setOrderId(order.id);
-            // antes de eliminar el carrito debo actalizar el stock de los productos
+            actualizarStock(data.items);
             clearCart();
         } catch (error) {
             console.log(error);

@@ -13,7 +13,6 @@ const ItemDetail = ({ producto }) => {
     { 
         const productoAcomprar = {id: producto.id, nombre:producto.nombre, cantidad: count, precio:producto.precio, img:producto.img}
         addElementCart(productoAcomprar);
-        console.log(shopCart)
         navigate('/cart')
     }
     let stock = parseInt(producto.stock);

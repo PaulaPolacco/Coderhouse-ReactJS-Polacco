@@ -20,7 +20,8 @@ function App() {
           <Route path="/detalles/:id" element={ <ItemDetailContainer />}></Route>
           <Route path="/categoria/:categoria" element={ <ItemListContainer />}></Route>
           <Route path="/promosycombos/:categoria" element={<ItemListContainer/>}></Route>
-          <Route path="/personalizados" element={<Personalizados/>}></Route>
+          <Route path="/filtro/:filtro" element={<ItemListContainer />}></Route>
+          <Route path="/destacados/:destacados" element={<ItemListContainer/>}></Route>
           <Route path="/cart" element={<CartListContainer/>}></Route>
           <Route path="/checkout" element={<Checkout/>}></Route>
           <Route path="*" element={<h1>Error 404</h1>}></Route>

@@ -10,9 +10,6 @@ const ItemDetailContainer = () => {
     const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {
         const traerUnProducto = async () => {
-            /* const resp = await fetch("/data/productos.json");
-            const data = await resp.json();
-            let prod = data.find(prod => prod.id === Number(id)); */
             try {
                 const prod = await getProducto(id);
                 setProducto(prod);

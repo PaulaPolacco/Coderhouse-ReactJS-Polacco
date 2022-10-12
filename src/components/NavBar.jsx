@@ -22,7 +22,7 @@ const NavBar = () => {
                                     <Link  to="/"><p> Galería</p></Link>
                                 </li>
                                 <li className="nav-item"> 
-                                    <Link  to="/personalizados"><p> Personalizados</p></Link>
+                                    <Link  to="/destacados/destacados"><p> Destacados</p></Link>
                                 </li>
                                 <li className="nav-item"><FormBuscar contBuscar="Buscar productos" />
                                 </li> 
